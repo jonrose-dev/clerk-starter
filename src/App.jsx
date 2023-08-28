@@ -1,3 +1,4 @@
+import Editor from "@monaco-editor/react";
 import logo from "./logo.svg";
 import "./styles/App.css";
 
@@ -13,6 +14,7 @@ function App() {
       >
         Learn more
       </a>
+      <Editor language="JSON" />
     </div>
   );
 }
